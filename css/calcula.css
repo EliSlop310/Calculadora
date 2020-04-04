@@ -1,0 +1,57 @@
+h4{
+    color: azure;
+    font-family:monospace;
+}
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora { 
+    border: 10px #156F78 ridge; 
+    width: 323px;
+    text-align: center;
+    background-color: #479CA2; }
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla { 
+    width: 250px; 
+    border: 4px #2B5F7E solid; 
+    text-align: right;
+    position: relative; 
+    left: 30px;  
+    padding: 8px 5px;
+    background-color: #F2F5FD; 
+    font-family:cursive;
+    overflow: hidden;
+}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { 
+    width: 50px;
+    height: 30px;
+    font-family:monospace;
+    color:#ddd;
+    padding: 0;  }
+
+/*botones especiales*/
+.calculadora input.largo {
+    position: relative;
+    width: 40px;
+    left: 20%;
+     background:#D86A85;
+    border: 3px #B46E7F solid;
+}
+
+.calculadora input.conv { 
+    color:#2f4eab; 
+    width: 90px;
+    border: 3px #6A9E6E solid;
+    background:#C3E0C2;
+}
+
+.calculadora input.cien {
+    border: 4px #0F6279 solid;
+    background:#3299B6;
+}
+
+.calculadora input.basic {
+     background:#8991C5;
+    border: 4px #6E77B4 solid;
+}
