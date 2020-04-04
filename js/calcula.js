@@ -58,6 +58,9 @@ num=x;
         pantalla.innerHTML=num;
         num=x;             
     }
+    if(b=='4'){
+        pantalla.innerHTML=num;     
+    }
     
 }
 
